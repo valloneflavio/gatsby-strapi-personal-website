@@ -1,0 +1,27 @@
+.articles__repo {
+    position: relative;
+  }
+
+  .articles__repo-link {
+    text-decoration: none;
+    color: #25303B;
+  }
+
+  .articles__repo-date {
+    color: #bbb;
+    font-size: 10px;
+  }
+
+  .articles__repo-star {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .articles__loader {
+    display: flex;
+  }
+
+  hr {
+    margin-top: 16px;
+  }

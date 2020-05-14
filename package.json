@@ -1,0 +1,20 @@
+{
+  "name": "valloneflavio",
+  "version": "1.0.0",
+  "description": "Flavio Vallone personal website",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && yarn develop",
+    "client": "cd client && gatsby clean && yarn develop",
+    "start": "yarn server & yarn client",
+    "clean": "cd client && gatsby clean",
+    "setup": "cd client && gatsby clean && yarn deploy",
+    "build": "yarn server & yarn setup"    
+  },
+  "author": "Flavio Vallone",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valloneflavio/gatsby-strapi-personal-website.git"
+  }  
+}

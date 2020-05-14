@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "read_date": {
+      "type": "datetime",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "integer",
+      "required": true,
+      "max": 5,
+      "min": 1
+    }
+  }
+}
